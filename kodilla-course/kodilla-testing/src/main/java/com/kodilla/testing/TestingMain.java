@@ -15,12 +15,13 @@ public class TestingMain {
             System.out.println("Error!");
         }
         //Test Calculator
+
         Calculator calculator = new Calculator();
         calculator.add(6,8);
         System.out.println("The score is: " + calculator.getScore1());
 
         Calculator calculator1 = new Calculator();
-        calculator.subtract(180,18000);
+        calculator1.subtract(180,18000);
         System.out.println("The score is: " + calculator1.getScore2());
 
     }
